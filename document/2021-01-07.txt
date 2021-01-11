@@ -1,5 +1,0 @@
-Today I leard about resolving conflicts in github and about pull request connect resolver with branch.
-also solve some error during the pushing files.
-I learn solve merge and reseting the merge in github.
-and also practice some command for github.
-learn how to solve rebase error and its command which is new commit to apply the specific bash learn on git.
