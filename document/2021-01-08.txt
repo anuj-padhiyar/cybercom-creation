@@ -1,0 +1,12 @@
+Mainly Today's Topic is Javascript
+some things that learn in js
+
+Introduction to Javascript
+Variables
+Data types
+Variable Mutation And Type Coercion
+Basic Operator Like Mathematical Operator And Logical Operator
+Operator Precedence
+
+Execute programs on the above Content
+and also do some task on HTML, CSS and Javascript
