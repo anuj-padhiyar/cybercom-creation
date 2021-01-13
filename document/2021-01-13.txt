@@ -1,0 +1,4 @@
+Today i learn about how the DOM is working in the javascript
+and also learn different types of events and event handling using the DOM(Document Object Model)
+Execute some program for js.
+and also 2 javascript challanges.
