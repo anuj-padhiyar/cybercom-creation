@@ -1,0 +1,10 @@
+today i learn about  classes and objects.
+main topics are:
+Object inheritance
+Function constructor
+prototype chain
+primitive and non-primitive Datatype
+and First class function
+
+i do some practice on above topics
+and also do html and javascript challenges.
