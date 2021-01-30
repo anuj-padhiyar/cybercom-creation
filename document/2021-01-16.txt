@@ -1,0 +1,12 @@
+today i learn about first class function 
+function returning function
+Immediately Invoked Function Expressions (IIFE)
+closure property
+bind , calland apply method
+and advance javascript SE6
+variable declaration in SE6 with let and const
+blocks and IIFEs in SE6
+and strings in SE6
+
+i do some practice on above topics
+and also do challange in html.
