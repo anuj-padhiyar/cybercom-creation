@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+        <title>HTML Practice 6</title>
+    </head>
+    <body>
+        <div class='image'>
+            <img src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.D7eFLEHticLdlzBc5oGVQAHaEw%26pid%3DApi&f=1">
+            <h1 class="text">Contact Us</h1>
+        </div>
+        <br>
+        <div class="fm">
+            <form class="center" onsubmit="callOnSubmit()">
+                <i class="fa fa-user icon"></i> 
+                <input class="textbox" type="text" placeholder="Full Name"><br><br>
+                <i class="fa fa-envelope icon"></i>
+                <input class="textbox" type="email" placeholder="Eg. example@gmail.com"><br><br>
+                <i class="fa fa-phone icon"></i>
+                <input class="textbox" type="mobile" placeholder="Eg. +1 800 000000"><br><br>
+                <i class="fa fa-comment icon"></i>
+                <textarea rows="7" cols="42" placeholder="Your Comments.."></textarea><br><br>
+                <input type="submit" value="SEND NOW" class="btn-blue">
+            </form>
+        </div>
+    </body>
+</html>
+
+
+<style>
+    img{
+        height: 100px;
+        width: 400px;
+    }
+    .text{
+        position: absolute;
+        top: 30%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+    }
+    .image {
+        margin-left:34%;
+        display: inline-block;
+        position: relative;
+        text-align: center;
+    }
+    .fm{
+        padding-top : 1%;
+        display:flex;
+	    justify-content: center;
+    }
+    .textbox{
+        width:300px;
+        padding-left : 30px;
+    }
+    textarea{
+        padding-top: 10px ;
+        padding-left: 30px;
+        border: 1px solid gray;
+        border-radius: 5px;
+    }
+    i{
+        position: absolute;
+        padding: 10px; 
+        min-width: 40px; 
+    }
+    .btn-blue{
+        color: white;
+        background-color: purple;
+        border: 0px;
+        border-radius: 20px;
+        height: 11%;
+        width: 40%;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+</style>
+
+<script>
+    function callOnSubmit(){
+        alert('Your request has been submitted !');
+    }
+</script>
