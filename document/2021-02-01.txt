@@ -1,0 +1,1 @@
+today  i do the php videos of file handling and different modes like read write and also different types function like exploid and deploid in files management.
