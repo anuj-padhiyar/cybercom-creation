@@ -1,0 +1,3 @@
+Today i learn about xml files and how to use it with php.
+also learn connection of  mysql and php and learn how to work database and tables
+practise on CRUD opration in php using mysql.
