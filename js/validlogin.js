@@ -12,26 +12,38 @@ function varifyLogin(){
         alert("Enter Password with minimum 8 Character Long.");
         return false;
     }
-    if(email == adminData.email && password == adminData.pass){
+    if(email == adminData.email && password == adminData.password){
         sessionStorage.setItem("email",adminData.email);
         sessionStorage.setItem("name",adminData.name);
         sessionStorage.setItem("pass",adminData.pass);
         document.loginform.action = "Dashboard.html";
         return true;
-    }
+    }//else{
+        // userData.foreach(abc);
+        // function abc(cur){
+        //     if(email == cur.email && password == cur.pass){
+        //         sessionStorage.setItem("email",cur.email);
+        //         sessionStorage.setItem("name",cur.name);
+        //         sessionStorage.setItem("pass",cur.pass);
+    
+        //         cur.ulogin = ltime();
+        //         localStorage.setItem('user',userData);
+        //         document.loginform.action = "Sub-user.html";
+        //         return true;
+        //     }
+        // }
+    //}
 
-    userData.foreach(function(cur){
-        if(email == cur.email && password == cur.pass){
-            sessionStorage.setItem("email",cur.email);
-            sessionStorage.setItem("name",cur.name);
-            sessionStorage.setItem("pass",cur.pass);
-
-            
-            document.loginform.action = "Sub-user.html";
-            return true;
-    }});
 
     alert("Email and Password Not Match!");
     return false;
     
+}
+
+
+function ltime(){
+    var today = new Date();
+    var date = today.getFullYear()+'/'+(today.getMonth()+1)+'/'+today.getDate();
+    var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
+    return dateTime = date+' '+time;
 }
