@@ -25,7 +25,9 @@ function addUser(){
         uname:name,
         uemail:email,
         upass:pass,
-        ubirthdate:birthdate
+        ubirthdate:birthdate,
+        ulogin:null,
+        ulogout:null
     }
     var olduser = [];
     if(localStorage.getItem('user') != null){
@@ -67,7 +69,9 @@ function printUser(){
     var table = document.getElementById('userData');
     var rows,row;
     var users = JSON.parse(localStorage.getItem('user'));
-    
+    if(users == null){
+        users = 0;
+    }
     
     for(var i=0;i<users.length;i++){
         rows = table.rows.length;
@@ -103,4 +107,3 @@ function getAge(bdate){
     var dt = new Date(ms);
     return Math.abs(dt.getUTCFullYear()-1970);
 }
-

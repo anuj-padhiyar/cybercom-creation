@@ -46,6 +46,19 @@ input{
     margin-left: 12px;
 }
 
-.userData{
+.userData, .sessionTable{
     border: 1px solid black;
+}
+.userData td,th{
+    height: 30px;
+    width: 50px;
+    padding-left: 20px;
+    text-align: center;
+}
+
+.sessionTable th,td{
+    height: 40px;
+    width: 400px;
+    padding-left: 20px;
+    text-align: center;
 }
