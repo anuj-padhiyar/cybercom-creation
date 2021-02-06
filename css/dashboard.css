@@ -1,0 +1,47 @@
+.sidebar{
+    height: 100%;
+    width: 200px;
+    background-color: rgb(255, 123, 0);
+    position:fixed;
+    overflow-x: hidden;
+    top: 0px;
+    left: 0px;
+}
+
+.sidebar a{
+    padding: 20px 10px 10px 20px;
+    display: block;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+
+.sidebar p{
+    font-size: 20px;
+    padding: 10px 10px 10px 20px;
+}
+
+.content{
+    padding-left: 220px;
+}
+
+.innerdiv1,.innerdiv2,.innerdiv3{
+    display: block;
+    background-color: aqua;
+    height: 80px;
+    width: 200px;
+}
+
+.addbtn{
+    float: right;
+    margin-right: 10px;
+    border: 0px;
+    background-color: rgb(255, 123, 0);
+    width: 120px;
+    height: 35px;
+    color: white;
+}
+
+input{
+    margin-left: 12px;
+}

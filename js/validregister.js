@@ -1,3 +1,8 @@
+if(localStorage.getItem('admin') != null){
+    alert("Admin Registerd!!");
+    document.getElementById("register").style.display = "none";
+}
+
 function validAdmin(){
     var name = document.regform.name.value;
     var email = document.regform.email.value;
@@ -44,4 +49,5 @@ function validAdmin(){
         state:document.regform.state.value
     }
     localStorage.setItem('admin',JSON.stringify(admin));
+
 }

@@ -5,13 +5,13 @@
         <!-- <link href="./../css/index.css" rel="stylesheet"> -->
     </head>
     <body>
-        <form>
-            <input type="text" placeholder="Email"><br><br>
-            <input type="password" placeholder="Password"><br><br>
+        <form name="loginform" action="Dashboard.html" onsubmit="return varifyLogin();">
+            <input type ="text" placeholder="Email" name="email"><br><br>
+            <input type="password" placeholder="Password" name="pass"><br><br>
             <input type="submit" value="Submit"><br><br>
             <span>OR</span><br><br>
             <a href="Registration.html">Registration</a>
         </form>
     </body>
-    <!-- <script src="./../js/index.js"></script> -->
+    <script src="./../js/validlogin.js"></script>
 </html>
