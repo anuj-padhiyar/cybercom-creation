@@ -4,25 +4,36 @@
         <title>User Details</title>
         <link href="./../css/dashboard.css" rel="stylesheet">
     </head>
-    <body>
+    <body onload="printUser()">
         <div class="sidebar">
-            <p>Hello, <span></span></p><br><br>
+            <p>Hello, <span id="dynamicname"></span></p><br><br>
             <a href="Dashboard.html">Dashborad</a>
             <a href="#">Users</a>
             <a href="#">Login Session</a>
-            <a href="#">Logout</a>
+            <a href="Login.html" onclick="Logout();">Logout</a>
         </div>
         <div class="content">
             <h2>Add User</h2><br>
-            <form>
-                <input type="text" placeholder="Name">
-                <input type="text" placeholder="Email">
-                <input type="password" placeholder="Password">
-                <input type="text" placeholder="Birthdate"><br><br>
-                <input type="submit" value="Add User" class="addbtn">
+            <form name="adduserform">
+                <input type="text" placeholder="Name" name="uname">
+                <input type="text" placeholder="Email" name="uemail">
+                <input type="password" placeholder="Password" name="upass">
+                <input type="text" placeholder="Birthdate" name="ubirthdate"><br><br>
+                <input type="button" value="Add User" class="addbtn" onclick="return addUser();">
             </form><br><br><br>
             <h2>User List</h2>
+            <table class="userData" id="userData">
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                    <th>Birthdate</th>
+                    <th>Age</th>
+                    <th>Actions</th>
+                </tr>
+            </table>
         </div>
     </body>
-    <!-- <script src="./../js/index.js"></script> -->
+    <script src="./../js/Logout.js"></script>
+    <script src="./../js/addUser.js"></script>
 </html>
