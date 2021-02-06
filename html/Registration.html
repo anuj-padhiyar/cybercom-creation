@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Registration Page</title>
+    </head>
+    <body>
+        <form action="" name="regform" onsubmit="return validAdmin();">
+            <input type="text" placeholder="Name" name="name"><br><br>
+            <input type="text" placeholder="Email" name="email"><br><br>
+            <input type="password" placeholder="Password" name="pass"><br><br>
+            <input type="password" placeholder="Confirm Password" name="conpass"><br><br>
+            <select name="city" id="city">
+                <option value="default" selected disabled>Select City</option>
+                <option value="Ahemdabad">Ahemdabad</option>
+                <option value="Surat">Surat</option>
+                <option value="Rajkot">Rajkot</option>
+                <option value="Vadodara">Vadodara</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Pune">Pune</option>
+                <option value="Nagpur">Nagpur</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Madurai">Madurai</option>
+                <option value="Jaipur">Jaipur</option>
+                <option value="Ajmer">Ajmer</option>
+            </select><br><br>
+            <select name="state" id="state">
+                <option value="default" selected disabled>Select State</option>
+                <option value="Gujrat">Gujrat</option>
+                <option value="Maharastra">Maharastra</option>
+                <option value="Tamilnadu">Tamilnadu</option>
+                <option value="Rajasthan">Rajasthan</option>
+            </select><br><br>
+            <input type="checkbox" name="tnc"> Terms & Conditions <br><br>
+            <input type="submit" value="Register">
+        </form>        
+    </body>
+    <script src="./../js/validregister.js"></script>
+</html>
