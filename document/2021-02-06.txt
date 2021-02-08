@@ -1,0 +1,3 @@
+Today i learn about different Queries and how to fire query using php file using different method.
+also learn about log in form and its validation etc.
+ans also do practice on it..
